@@ -33,7 +33,6 @@ const subscribe = async function(req:NextApiRequest, res:NextApiResponse){
         if(!stripe_customer_id){
             const stripeCustomer = await stripe.customers.create({
                 email: session.user.email,
-                //metadata
             })
 
             await fauna.query(
@@ -56,7 +55,7 @@ const subscribe = async function(req:NextApiRequest, res:NextApiResponse){
             payment_method_types: ['card'],
             billing_address_collection: 'required',
             line_items: [
-                {price: 'price_1KMYy7Bxpe9y1eVSMgUTcqDH', quantity: 1}
+                {price: 'price_1KVI2bBxpe9y1eVStX1DZQ3B', quantity: 1}
             ],
             mode: 'subscription',
             allow_promotion_codes: true,

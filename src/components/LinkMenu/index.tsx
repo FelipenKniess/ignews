@@ -13,7 +13,7 @@ export default function ActiveLink({children, activeClassName, ...rest}:LinkMenu
     return (
         <Link {...rest}>
             {cloneElement(children, {
-                className
+                className,
             })}
         </Link>
     )
