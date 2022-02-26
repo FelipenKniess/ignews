@@ -1,5 +1,5 @@
 
-import { GetStaticProps } from "next"
+import { GetStaticProps, GetStaticPaths } from "next"
 import { RichText } from 'prismic-dom';
 import { DataDocumentsPrismic } from "../";
 import { PrismicClient } from "../../../services/prismic";
@@ -55,7 +55,7 @@ export default function PostPreviw({post}:  PostPreviewProps) {
     )
 }
 
-export const getStaticPaths = () => {
+export const getStaticPaths: GetStaticPaths = () => {
     return {
         paths: [],
         fallback: 'blocking'
@@ -83,5 +83,6 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
         props: {
             post
         },
+        revalidate: 60 * 30 //30 minutes
     }
 }
