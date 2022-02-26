@@ -16,7 +16,7 @@
 
 ## 🎯 Sobre
 
-<p>O ignews é um portal de notícias no qual os usuários se pagam para ter acesso. o usuário só tem acesso das postagens caso ele tenha uma inscrição ativa no stripe. 
+<p>O ignews é um portal de notícias no qual os usuários pagam para ter acesso. o usuário só tem acesso das postagens caso ele tenha uma inscrição ativa no stripe. 
   caso o usuário não seja inscrito, poderá ler apenas um resumo das postagens.
 </p>
 
