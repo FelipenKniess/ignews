@@ -16,11 +16,11 @@
 
 ## 🎯 Sobre
 
-<p>O ignews é um portal de notícias no qual os usuários pagam para ter acesso. o usuário só tem acesso das postagens caso ele tenha uma inscrição ativa no stripe. 
+<p>O ignews é um portal de notícias no qual os usuários pagam para ter acesso. o usuário só tem acesso das postagens caso ele tenha uma inscrição ativa no Stripe. 
   caso o usuário não seja inscrito, poderá ler apenas um resumo das postagens.
 </p>
 <p>
-  Os meios de pagamento da aplicação são integrados com a API do stripe, juntamente do FaunaDB para armazenar as informações dos usuários. as postagens são administradas através do CMS Prismic.io 
+  Os meios de pagamento da aplicação são integrados com a API do Stripe, juntamente do FaunaDB para armazenar as informações dos usuários. as postagens são administradas através do CMS Prismic.io 
  </p>
  <p>A aplicação é construída com modelo <strong>Serveless</strong>, sem necessidade de criar uma API externa para manipular os dados 🚀</p>
 
@@ -40,7 +40,7 @@
 
 ## :fire: Execução da aplicação em produção
 - Link da aplicação: https://ignews-felipenkniess.vercel.app/
-- :credit_card: para realizar a assinatura sem seu cartão de crédito, pode utilizar o número fake: ``` 4242 4242 4242 4242 ```
+- :credit_card: para realizar a assinatura sem precisar usar seu cartão de crédito, pode utilizar esse número fake: ``` 4242 4242 4242 4242 ```
 
 ## :octocat: Execução da aplicação em desenvolvimento
 - Requisítos: Instalar [Git](https://git-scm.com/), [Node](https://nodejs.org/en/), [Yarn](https://yarnpkg.com/)
