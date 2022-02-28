@@ -34,7 +34,7 @@
 
 
 ## 👀 Visualização
-<a href="https://ignews-felipenkniess.vercel.app/">
+<a target="_blank" href="https://ignews-felipenkniess.vercel.app/">
   <img src="./public/images/ignews-preview.gif" alt="License MIT">
 </a>
 
