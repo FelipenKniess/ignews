@@ -5,7 +5,7 @@
 <br>
 </h1>
 
-<p align="center">Portal de notícias com meio de pagamento integrado</p> 
+<p align="center">Portal de notícias com CMS e meio de pagamento integrado</p> 
  <p align="center">Aplicação desenvolvida no curso IGNITE da <a href="https://www.rocketseat.com.br/">@rocketseat</a> </p>
 
 <p align="center">
