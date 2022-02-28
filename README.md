@@ -22,7 +22,7 @@
 <p>
   Os meios de pagamento da aplicação são integrados com a API do stripe, juntamente do FaunaDB para armazenar as informações dos usuários. as postagens são administradas através do CMS Prismic.io 
  </p>
- <p>A aplicação é construída com modelo <strong>Serveless</strong>, não necessitando da criação de um servidor externo para a manipulação dos dados da aplicação 🚀</p>
+ <p>A aplicação é construída com modelo <strong>Serveless</strong>, sem necessidade de criar uma API externa para manipular os dados 🚀</p>
 
 ## 🚀 Tecnologias utilizadas
 - [NextJS](https://nextjs.org/)
@@ -33,12 +33,16 @@
 - [Prismic.io](https://prismic.io/)
 
 
-## 👀 Visualização
+## :eyes: Demonstração da aplicação
 <a target="_blank" href="https://ignews-felipenkniess.vercel.app/">
   <img src="./public/images/ignews-preview.gif" alt="License MIT">
 </a>
 
-## Execução do projeto em desenvolvimento
+## :fire: Execução da aplicação em produção
+- Link da aplicação: https://ignews-felipenkniess.vercel.app/
+- :credit_card: para realizar a assinatura sem seu cartão de crédito, pode utilizar o número fake: ``` 4242 4242 4242 4242 ```
+
+## :octocat: Execução da aplicação em desenvolvimento
 - Requisítos: Instalar [Git](https://git-scm.com/), [Node](https://nodejs.org/en/), [Yarn](https://yarnpkg.com/)
 - Baixar o repositório na máquina e entrar no projeto:
 ```bash
